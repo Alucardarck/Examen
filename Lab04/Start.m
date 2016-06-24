@@ -29,7 +29,7 @@
 }
 
 - (void)initController {
-    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Descubre los mejores clasicos", @"De Nintendo", @"Para el Mundo", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Descubre los mejores clasicos", @"De la familia Nintendo", @"Creados Para el Mundo", nil];
     
     maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"SNES.png", @"mario.png", @"link.png", nil];
     

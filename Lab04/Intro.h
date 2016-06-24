@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Declarations.h"
+#import "Home.h"
 
 @interface Intro : UIViewController
 

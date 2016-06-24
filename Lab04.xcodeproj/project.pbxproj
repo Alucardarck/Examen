@@ -20,6 +20,7 @@
 		5B52A9C11D1CBB4B00D8E3D5 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */; };
 		5B52A9C21D1CBB4B00D8E3D5 /* SNES.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */; };
 		5B52A9C41D1CC0D600D8E3D5 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9C31D1CC0D600D8E3D5 /* fondo.png */; };
+		5B52A9C71D1CD05100D8E3D5 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9C61D1CD05100D8E3D5 /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
 		5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SNES.png; sourceTree = "<group>"; };
 		5B52A9C31D1CC0D600D8E3D5 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		5B52A9C51D1CD05100D8E3D5 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		5B52A9C61D1CD05100D8E3D5 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				5B52A99D1D1B69E600D8E3D5 /* Start.m */,
 				5B52A9B41D1B72A900D8E3D5 /* Intro.h */,
 				5B52A9B51D1B72A900D8E3D5 /* Intro.m */,
+				5B52A9C51D1CD05100D8E3D5 /* Home.h */,
+				5B52A9C61D1CD05100D8E3D5 /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				5B52A99E1D1B69E600D8E3D5 /* Start.m in Sources */,
 				5B52A9B91D1B73B700D8E3D5 /* Declarations.m in Sources */,
 				5B52A9A41D1B69E600D8E3D5 /* Lab04.xcdatamodeld in Sources */,
+				5B52A9C71D1CD05100D8E3D5 /* Home.m in Sources */,
 				5B52A99B1D1B69E600D8E3D5 /* AppDelegate.m in Sources */,
 				5B52A9981D1B69E600D8E3D5 /* main.m in Sources */,
 			);
