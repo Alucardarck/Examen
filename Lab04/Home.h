@@ -11,5 +11,6 @@
 
 @interface Home : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *tblGames;
+@property (strong, nonatomic) IBOutlet UILabel *lblSelected;
 
 @end

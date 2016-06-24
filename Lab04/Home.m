@@ -74,7 +74,7 @@
 //--------------------------------------------------------------------------------------
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    self.lblSelected.text = self.gameNames[indexPath.row];
     
     
 }
