@@ -11,9 +11,8 @@
 NSString *stDummy;
 
 NSMutableArray *maIntroTitles;  // Titulos que se despliegan en mi paginado.
-NSMutableArray *maIntroImgs;
-NSMutableArray *maTeams;
-NSMutableArray *maImgsTeams;
+NSMutableArray *maIntroImgs;    // Imagenes que se despliegan en mi paginado.
+
 
 @implementation Declarations
 

@@ -29,7 +29,10 @@
 }
 
 - (void)initController {
-    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Este verano", @"Conoce a los Avengers", @"Directamente desde tu iPhone", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Descubre los mejores clasicos", @"De Nintendo", @"Para el Mundo", nil];
+    
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"SNES.png", @"mario.png", @"link.png", nil];
+    
     [self createPageViews];
 }
 
@@ -67,7 +70,6 @@
     }
     // Create a new view controller and pass suitable data.
     Intro *pageIntro        = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
-    pageIntro.lblIntro      = maIntroTitles[index];
     pageIntro.iPageIndex    = index;
     
     return pageIntro;

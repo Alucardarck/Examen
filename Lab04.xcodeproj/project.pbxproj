@@ -16,6 +16,9 @@
 		5B52A9A91D1B69E600D8E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9A71D1B69E600D8E3D5 /* LaunchScreen.storyboard */; };
 		5B52A9B61D1B72A900D8E3D5 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9B51D1B72A900D8E3D5 /* Intro.m */; };
 		5B52A9B91D1B73B700D8E3D5 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9B81D1B73B700D8E3D5 /* Declarations.m */; };
+		5B52A9C01D1CBB4B00D8E3D5 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BD1D1CBB4B00D8E3D5 /* link.png */; };
+		5B52A9C11D1CBB4B00D8E3D5 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */; };
+		5B52A9C21D1CBB4B00D8E3D5 /* SNES.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		5B52A9B51D1B72A900D8E3D5 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		5B52A9B71D1B73B700D8E3D5 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		5B52A9B81D1B73B700D8E3D5 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		5B52A9BD1D1CBB4B00D8E3D5 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
+		5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SNES.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		5B52A9951D1B69E600D8E3D5 /* Lab04 */ = {
 			isa = PBXGroup;
 			children = (
+				5B52A9BC1D1CBB4B00D8E3D5 /* imgs */,
 				5B52A9B31D1B723800D8E3D5 /* Controllers */,
 				5B52A9B11D1B6B3400D8E3D5 /* Main */,
 				5B52A99F1D1B69E600D8E3D5 /* Main.storyboard */,
@@ -106,6 +113,16 @@
 				5B52A9B51D1B72A900D8E3D5 /* Intro.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B52A9BC1D1CBB4B00D8E3D5 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				5B52A9BD1D1CBB4B00D8E3D5 /* link.png */,
+				5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */,
+				5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B52A9C21D1CBB4B00D8E3D5 /* SNES.png in Resources */,
 				5B52A9A91D1B69E600D8E3D5 /* LaunchScreen.storyboard in Resources */,
+				5B52A9C01D1CBB4B00D8E3D5 /* link.png in Resources */,
+				5B52A9C11D1CBB4B00D8E3D5 /* mario.png in Resources */,
 				5B52A9A61D1B69E600D8E3D5 /* Assets.xcassets in Resources */,
 				5B52A9A11D1B69E600D8E3D5 /* Main.storyboard in Resources */,
 			);

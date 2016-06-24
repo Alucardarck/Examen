@@ -10,9 +10,7 @@
 
 extern NSString *stDummy;
 extern NSMutableArray *maIntroTitles;
-extern NSMutableArray *maIntroImgs;
-extern NSMutableArray *maTeams;
-extern NSMutableArray *maImgsTeams;
+extern NSMutableArray *maIntroImgs; 
 
 @interface Declarations : NSObject
 

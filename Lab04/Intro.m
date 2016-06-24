@@ -29,6 +29,7 @@
 //-------------------------------------------------------------------------------
 -(void)viewWillAppear:(BOOL)animated {
     self.lblIntro.text  = maIntroTitles[self.iPageIndex];
+    self.imgIntro.image = [UIImage imageNamed:maIntroImgs [self.iPageIndex]];
 }
 
 

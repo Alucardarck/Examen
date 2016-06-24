@@ -10,6 +10,8 @@
 #import "Declarations.h"
 
 @interface Intro : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIImageView *imgIntro;
 @property NSUInteger iPageIndex;
 @property (strong, nonatomic) IBOutlet UILabel *lblIntro;
 @end
