@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellGames.h"
 
 @interface Home : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tblGames;
 
 @end
