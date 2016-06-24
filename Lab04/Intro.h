@@ -14,4 +14,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imgIntro;
 @property NSUInteger iPageIndex;
 @property (strong, nonatomic) IBOutlet UILabel *lblIntro;
+@property (strong, nonatomic) IBOutlet UIButton *btnIntro;
+
+- (IBAction)btnIntroPressed:(id)sender;
+
+
 @end
