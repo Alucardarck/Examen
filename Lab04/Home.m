@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initController];
+     //self.tblGames.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"fondo.png"]];
     // Do any additional setup after loading the view.
 }
 
@@ -30,9 +31,9 @@
 }
 
 - (void)initController {
-    self.gameNames   = [[NSMutableArray alloc] initWithObjects: @"Super Mario RPG", @"The Legend Of Zelda", @"F-Zero", nil];
+    self.gameNames   = [[NSMutableArray alloc] initWithObjects: @"Super Mario RPG",@"TLoZ: A link to the past",@"Killer Instinct",@"Megaman X",@"SMB 2: Yoshi’s Island",@"Donkey Kong Country",@"Super Mario World",@"Super Metroid",@"F-Zero",@"Kirby Super Star",@"Teenage Mutant Ninja Turtles",@"Contra III: The aliens Wars",@"Street Fighter II",@"Donkey Kong Country 2",@"Super Mario Kart",@"Star Fox",@"Super Bomberman 3",nil];
     
-    self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"SNES.png", @"mario.png", @"link.png", nil];
+    self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"Mario_RPG.jpeg", @"TLoz.jpeg", @"Killer.jpeg",@"Megaman.jpeg",@"Yoshi_Island.jpeg",@"Donkey_1.jpeg",@"Mario_World.jpeg",@"Metroid.jpeg",@"F_Zero.jpeg",@"Kirby.jpeg",@"Tortugas.jpeg",@"Contra.jpeg",@"Street.jpeg",@"Donkey_2.jpeg",@"Mario_Kart.jpeg",@"Fox.jpeg",@"Bomberman_3.jpeg",  nil];
 }
 
 /**********************************************************************************************/
