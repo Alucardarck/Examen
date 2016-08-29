@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B18147B1D73BD3800DAD7CA /* L1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1814781D73BD3800DAD7CA /* L1.png */; };
+		5B18147C1D73BD3800DAD7CA /* L2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1814791D73BD3800DAD7CA /* L2.png */; };
+		5B18147D1D73BD3800DAD7CA /* L3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B18147A1D73BD3800DAD7CA /* L3.png */; };
+		5B18147F1D73BD6B00DAD7CA /* L4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B18147E1D73BD6B00DAD7CA /* L4.png */; };
+		5B1814811D73BE7A00DAD7CA /* F2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B1814801D73BE7A00DAD7CA /* F2.jpg */; };
 		5B52A9981D1B69E600D8E3D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9971D1B69E600D8E3D5 /* main.m */; };
 		5B52A99B1D1B69E600D8E3D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A99A1D1B69E600D8E3D5 /* AppDelegate.m */; };
 		5B52A99E1D1B69E600D8E3D5 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A99D1D1B69E600D8E3D5 /* Start.m */; };
@@ -16,33 +21,17 @@
 		5B52A9A91D1B69E600D8E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9A71D1B69E600D8E3D5 /* LaunchScreen.storyboard */; };
 		5B52A9B61D1B72A900D8E3D5 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9B51D1B72A900D8E3D5 /* Intro.m */; };
 		5B52A9B91D1B73B700D8E3D5 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9B81D1B73B700D8E3D5 /* Declarations.m */; };
-		5B52A9C01D1CBB4B00D8E3D5 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BD1D1CBB4B00D8E3D5 /* link.png */; };
-		5B52A9C11D1CBB4B00D8E3D5 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */; };
-		5B52A9C21D1CBB4B00D8E3D5 /* SNES.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */; };
-		5B52A9C41D1CC0D600D8E3D5 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9C31D1CC0D600D8E3D5 /* fondo.png */; };
 		5B52A9C71D1CD05100D8E3D5 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9C61D1CD05100D8E3D5 /* Home.m */; };
 		5B52A9CC1D1CD4DD00D8E3D5 /* cellGames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A9CA1D1CD4DD00D8E3D5 /* cellGames.m */; };
 		5B52A9CD1D1CD4DD00D8E3D5 /* cellGames.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9CB1D1CD4DD00D8E3D5 /* cellGames.xib */; };
-		5B52A9DE1D1CEA0E00D8E3D5 /* Bomberman_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9CE1D1CEA0E00D8E3D5 /* Bomberman_3.jpeg */; };
-		5B52A9DF1D1CEA0E00D8E3D5 /* Donkey_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9CF1D1CEA0E00D8E3D5 /* Donkey_1.jpeg */; };
-		5B52A9E01D1CEA0E00D8E3D5 /* Donkey_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D01D1CEA0E00D8E3D5 /* Donkey_2.jpeg */; };
-		5B52A9E11D1CEA0E00D8E3D5 /* F_Zero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D11D1CEA0E00D8E3D5 /* F_Zero.jpeg */; };
-		5B52A9E21D1CEA0E00D8E3D5 /* Fox.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D21D1CEA0E00D8E3D5 /* Fox.jpeg */; };
-		5B52A9E31D1CEA0E00D8E3D5 /* Killer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D31D1CEA0E00D8E3D5 /* Killer.jpeg */; };
-		5B52A9E41D1CEA0E00D8E3D5 /* Kirby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D41D1CEA0E00D8E3D5 /* Kirby.jpeg */; };
-		5B52A9E51D1CEA0E00D8E3D5 /* Mario_Kart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D51D1CEA0E00D8E3D5 /* Mario_Kart.jpeg */; };
-		5B52A9E61D1CEA0E00D8E3D5 /* Mario_RPG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D61D1CEA0E00D8E3D5 /* Mario_RPG.jpeg */; };
-		5B52A9E71D1CEA0E00D8E3D5 /* Mario_World.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D71D1CEA0E00D8E3D5 /* Mario_World.jpeg */; };
-		5B52A9E81D1CEA0E00D8E3D5 /* Megaman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D81D1CEA0E00D8E3D5 /* Megaman.jpeg */; };
-		5B52A9E91D1CEA0E00D8E3D5 /* Metroid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9D91D1CEA0E00D8E3D5 /* Metroid.jpeg */; };
-		5B52A9EA1D1CEA0E00D8E3D5 /* Street.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9DA1D1CEA0E00D8E3D5 /* Street.jpeg */; };
-		5B52A9EB1D1CEA0E00D8E3D5 /* TLoZ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9DB1D1CEA0E00D8E3D5 /* TLoZ.jpeg */; };
-		5B52A9EC1D1CEA0E00D8E3D5 /* Tortugas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9DC1D1CEA0E00D8E3D5 /* Tortugas.jpeg */; };
-		5B52A9ED1D1CEA0E00D8E3D5 /* Yoshi_Island.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9DD1D1CEA0E00D8E3D5 /* Yoshi_Island.jpeg */; };
-		5B52A9EF1D1CEB6800D8E3D5 /* Contra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B52A9EE1D1CEB6800D8E3D5 /* Contra.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1814781D73BD3800DAD7CA /* L1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1.png; sourceTree = "<group>"; };
+		5B1814791D73BD3800DAD7CA /* L2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L2.png; sourceTree = "<group>"; };
+		5B18147A1D73BD3800DAD7CA /* L3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L3.png; sourceTree = "<group>"; };
+		5B18147E1D73BD6B00DAD7CA /* L4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L4.png; sourceTree = "<group>"; };
+		5B1814801D73BE7A00DAD7CA /* F2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F2.jpg; sourceTree = "<group>"; };
 		5B52A9931D1B69E600D8E3D5 /* Examen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B52A9971D1B69E600D8E3D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B52A9991D1B69E600D8E3D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,32 +47,11 @@
 		5B52A9B51D1B72A900D8E3D5 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		5B52A9B71D1B73B700D8E3D5 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		5B52A9B81D1B73B700D8E3D5 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
-		5B52A9BD1D1CBB4B00D8E3D5 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
-		5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
-		5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SNES.png; sourceTree = "<group>"; };
-		5B52A9C31D1CC0D600D8E3D5 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
 		5B52A9C51D1CD05100D8E3D5 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		5B52A9C61D1CD05100D8E3D5 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		5B52A9C91D1CD4DD00D8E3D5 /* cellGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellGames.h; sourceTree = "<group>"; };
 		5B52A9CA1D1CD4DD00D8E3D5 /* cellGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellGames.m; sourceTree = "<group>"; };
 		5B52A9CB1D1CD4DD00D8E3D5 /* cellGames.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellGames.xib; sourceTree = "<group>"; };
-		5B52A9CE1D1CEA0E00D8E3D5 /* Bomberman_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bomberman_3.jpeg; sourceTree = "<group>"; };
-		5B52A9CF1D1CEA0E00D8E3D5 /* Donkey_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Donkey_1.jpeg; sourceTree = "<group>"; };
-		5B52A9D01D1CEA0E00D8E3D5 /* Donkey_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Donkey_2.jpeg; sourceTree = "<group>"; };
-		5B52A9D11D1CEA0E00D8E3D5 /* F_Zero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F_Zero.jpeg; sourceTree = "<group>"; };
-		5B52A9D21D1CEA0E00D8E3D5 /* Fox.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fox.jpeg; sourceTree = "<group>"; };
-		5B52A9D31D1CEA0E00D8E3D5 /* Killer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Killer.jpeg; sourceTree = "<group>"; };
-		5B52A9D41D1CEA0E00D8E3D5 /* Kirby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kirby.jpeg; sourceTree = "<group>"; };
-		5B52A9D51D1CEA0E00D8E3D5 /* Mario_Kart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mario_Kart.jpeg; sourceTree = "<group>"; };
-		5B52A9D61D1CEA0E00D8E3D5 /* Mario_RPG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mario_RPG.jpeg; sourceTree = "<group>"; };
-		5B52A9D71D1CEA0E00D8E3D5 /* Mario_World.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mario_World.jpeg; sourceTree = "<group>"; };
-		5B52A9D81D1CEA0E00D8E3D5 /* Megaman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Megaman.jpeg; sourceTree = "<group>"; };
-		5B52A9D91D1CEA0E00D8E3D5 /* Metroid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metroid.jpeg; sourceTree = "<group>"; };
-		5B52A9DA1D1CEA0E00D8E3D5 /* Street.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Street.jpeg; sourceTree = "<group>"; };
-		5B52A9DB1D1CEA0E00D8E3D5 /* TLoZ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TLoZ.jpeg; sourceTree = "<group>"; };
-		5B52A9DC1D1CEA0E00D8E3D5 /* Tortugas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tortugas.jpeg; sourceTree = "<group>"; };
-		5B52A9DD1D1CEA0E00D8E3D5 /* Yoshi_Island.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yoshi_Island.jpeg; sourceTree = "<group>"; };
-		5B52A9EE1D1CEB6800D8E3D5 /* Contra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Contra.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,27 +133,11 @@
 		5B52A9BC1D1CBB4B00D8E3D5 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				5B52A9EE1D1CEB6800D8E3D5 /* Contra.jpeg */,
-				5B52A9CE1D1CEA0E00D8E3D5 /* Bomberman_3.jpeg */,
-				5B52A9CF1D1CEA0E00D8E3D5 /* Donkey_1.jpeg */,
-				5B52A9D01D1CEA0E00D8E3D5 /* Donkey_2.jpeg */,
-				5B52A9D11D1CEA0E00D8E3D5 /* F_Zero.jpeg */,
-				5B52A9D21D1CEA0E00D8E3D5 /* Fox.jpeg */,
-				5B52A9D31D1CEA0E00D8E3D5 /* Killer.jpeg */,
-				5B52A9D41D1CEA0E00D8E3D5 /* Kirby.jpeg */,
-				5B52A9D51D1CEA0E00D8E3D5 /* Mario_Kart.jpeg */,
-				5B52A9D61D1CEA0E00D8E3D5 /* Mario_RPG.jpeg */,
-				5B52A9D71D1CEA0E00D8E3D5 /* Mario_World.jpeg */,
-				5B52A9D81D1CEA0E00D8E3D5 /* Megaman.jpeg */,
-				5B52A9D91D1CEA0E00D8E3D5 /* Metroid.jpeg */,
-				5B52A9DA1D1CEA0E00D8E3D5 /* Street.jpeg */,
-				5B52A9DB1D1CEA0E00D8E3D5 /* TLoZ.jpeg */,
-				5B52A9DC1D1CEA0E00D8E3D5 /* Tortugas.jpeg */,
-				5B52A9DD1D1CEA0E00D8E3D5 /* Yoshi_Island.jpeg */,
-				5B52A9C31D1CC0D600D8E3D5 /* fondo.png */,
-				5B52A9BD1D1CBB4B00D8E3D5 /* link.png */,
-				5B52A9BE1D1CBB4B00D8E3D5 /* mario.png */,
-				5B52A9BF1D1CBB4B00D8E3D5 /* SNES.png */,
+				5B1814801D73BE7A00DAD7CA /* F2.jpg */,
+				5B18147E1D73BD6B00DAD7CA /* L4.png */,
+				5B1814781D73BD3800DAD7CA /* L1.png */,
+				5B1814791D73BD3800DAD7CA /* L2.png */,
+				5B18147A1D73BD3800DAD7CA /* L3.png */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -257,31 +209,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B52A9EF1D1CEB6800D8E3D5 /* Contra.jpeg in Resources */,
-				5B52A9DE1D1CEA0E00D8E3D5 /* Bomberman_3.jpeg in Resources */,
-				5B52A9C21D1CBB4B00D8E3D5 /* SNES.png in Resources */,
+				5B18147D1D73BD3800DAD7CA /* L3.png in Resources */,
+				5B18147F1D73BD6B00DAD7CA /* L4.png in Resources */,
 				5B52A9A91D1B69E600D8E3D5 /* LaunchScreen.storyboard in Resources */,
-				5B52A9E61D1CEA0E00D8E3D5 /* Mario_RPG.jpeg in Resources */,
-				5B52A9C01D1CBB4B00D8E3D5 /* link.png in Resources */,
-				5B52A9E11D1CEA0E00D8E3D5 /* F_Zero.jpeg in Resources */,
-				5B52A9E01D1CEA0E00D8E3D5 /* Donkey_2.jpeg in Resources */,
-				5B52A9E31D1CEA0E00D8E3D5 /* Killer.jpeg in Resources */,
-				5B52A9E91D1CEA0E00D8E3D5 /* Metroid.jpeg in Resources */,
 				5B52A9CD1D1CD4DD00D8E3D5 /* cellGames.xib in Resources */,
-				5B52A9DF1D1CEA0E00D8E3D5 /* Donkey_1.jpeg in Resources */,
-				5B52A9ED1D1CEA0E00D8E3D5 /* Yoshi_Island.jpeg in Resources */,
-				5B52A9E41D1CEA0E00D8E3D5 /* Kirby.jpeg in Resources */,
-				5B52A9EB1D1CEA0E00D8E3D5 /* TLoZ.jpeg in Resources */,
-				5B52A9C11D1CBB4B00D8E3D5 /* mario.png in Resources */,
+				5B1814811D73BE7A00DAD7CA /* F2.jpg in Resources */,
+				5B18147C1D73BD3800DAD7CA /* L2.png in Resources */,
 				5B52A9A61D1B69E600D8E3D5 /* Assets.xcassets in Resources */,
-				5B52A9EA1D1CEA0E00D8E3D5 /* Street.jpeg in Resources */,
-				5B52A9E71D1CEA0E00D8E3D5 /* Mario_World.jpeg in Resources */,
-				5B52A9E51D1CEA0E00D8E3D5 /* Mario_Kart.jpeg in Resources */,
+				5B18147B1D73BD3800DAD7CA /* L1.png in Resources */,
 				5B52A9A11D1B69E600D8E3D5 /* Main.storyboard in Resources */,
-				5B52A9E81D1CEA0E00D8E3D5 /* Megaman.jpeg in Resources */,
-				5B52A9EC1D1CEA0E00D8E3D5 /* Tortugas.jpeg in Resources */,
-				5B52A9E21D1CEA0E00D8E3D5 /* Fox.jpeg in Resources */,
-				5B52A9C41D1CC0D600D8E3D5 /* fondo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

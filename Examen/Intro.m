@@ -32,8 +32,13 @@
     self.lblIntro.text  = maIntroTitles[self.iPageIndex];
     self.imgIntro.image = [UIImage imageNamed:maIntroImgs [self.iPageIndex]];
     
+    if (self.iPageIndex == 1){
+        self.btnIntro.hidden = NO;
+        [self.btnIntro setTitle:@"Ver Mapa" forState:UIControlStateNormal];
+    }
     if (self.iPageIndex == 2){
         self.btnIntro.hidden = NO;
+        [self.btnIntro setTitle:@"Ver Catalogo" forState:UIControlStateNormal];
     }
 }
 /**********************************************************************************************/

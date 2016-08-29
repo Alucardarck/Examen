@@ -29,10 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Control de Datos en las pestañas
 - (void)initController {
-    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Descubre los mejores clasicos", @"De la familia Nintendo", @"Creados Para el Mundo", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Examen Final", @"Uso de Google Maps", @"Venta de productos", nil];
     
-    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"SNES.png", @"mario.png", @"link.png", nil];
+//Control de Imagenes de Fondo Para las pestañas
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"L4.png", @"L2.png", @"L3.png", nil];
     
     [self createPageViews];
 }
