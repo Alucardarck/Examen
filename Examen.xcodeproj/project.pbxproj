@@ -100,7 +100,7 @@
 		5B52A98A1D1B69E600D8E3D5 = {
 			isa = PBXGroup;
 			children = (
-				5B52A9951D1B69E600D8E3D5 /* Lab04 */,
+				5B52A9951D1B69E600D8E3D5 /* Examen */,
 				5B52A9941D1B69E600D8E3D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B52A9951D1B69E600D8E3D5 /* Lab04 */ = {
+		5B52A9951D1B69E600D8E3D5 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
 				5B52A9C81D1CD4A300D8E3D5 /* Cells */,
@@ -127,7 +127,6 @@
 				5B52A9A21D1B69E600D8E3D5 /* Lab04.xcdatamodeld */,
 				5B52A9961D1B69E600D8E3D5 /* Supporting Files */,
 			);
-			name = Lab04;
 			path = Examen;
 			sourceTree = "<group>";
 		};
