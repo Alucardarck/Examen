@@ -43,7 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B52A9931D1B69E600D8E3D5 /* Lab04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B52A9931D1B69E600D8E3D5 /* Examen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B52A9971D1B69E600D8E3D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B52A9991D1B69E600D8E3D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B52A99A1D1B69E600D8E3D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		5B52A9941D1B69E600D8E3D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B52A9931D1B69E600D8E3D5 /* Lab04.app */,
+				5B52A9931D1B69E600D8E3D5 /* Examen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +127,8 @@
 				5B52A9A21D1B69E600D8E3D5 /* Lab04.xcdatamodeld */,
 				5B52A9961D1B69E600D8E3D5 /* Supporting Files */,
 			);
-			path = Lab04;
+			name = Lab04;
+			path = Examen;
 			sourceTree = "<group>";
 		};
 		5B52A9961D1B69E600D8E3D5 /* Supporting Files */ = {
@@ -203,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B52A9921D1B69E600D8E3D5 /* Lab04 */ = {
+		5B52A9921D1B69E600D8E3D5 /* Examen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B52A9AD1D1B69E600D8E3D5 /* Build configuration list for PBXNativeTarget "Lab04" */;
+			buildConfigurationList = 5B52A9AD1D1B69E600D8E3D5 /* Build configuration list for PBXNativeTarget "Examen" */;
 			buildPhases = (
 				5B52A98F1D1B69E600D8E3D5 /* Sources */,
 				5B52A9901D1B69E600D8E3D5 /* Frameworks */,
@@ -215,9 +216,9 @@
 			);
 			dependencies = (
 			);
-			name = Lab04;
+			name = Examen;
 			productName = Lab04;
-			productReference = 5B52A9931D1B69E600D8E3D5 /* Lab04.app */;
+			productReference = 5B52A9931D1B69E600D8E3D5 /* Examen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B52A98E1D1B69E600D8E3D5 /* Build configuration list for PBXProject "Lab04" */;
+			buildConfigurationList = 5B52A98E1D1B69E600D8E3D5 /* Build configuration list for PBXProject "Examen" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,7 +248,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B52A9921D1B69E600D8E3D5 /* Lab04 */,
+				5B52A9921D1B69E600D8E3D5 /* Examen */,
 			);
 		};
 /* End PBXProject section */
@@ -411,10 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Lab04/Info.plist;
+				INFOPLIST_FILE = Examen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MartinLP.Lab04;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinLP.Examen;
+				PRODUCT_NAME = Examen;
 			};
 			name = Debug;
 		};
@@ -422,17 +423,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Lab04/Info.plist;
+				INFOPLIST_FILE = Examen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MartinLP.Lab04;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinLP.Examen;
+				PRODUCT_NAME = Examen;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B52A98E1D1B69E600D8E3D5 /* Build configuration list for PBXProject "Lab04" */ = {
+		5B52A98E1D1B69E600D8E3D5 /* Build configuration list for PBXProject "Examen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B52A9AB1D1B69E600D8E3D5 /* Debug */,
@@ -441,13 +442,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B52A9AD1D1B69E600D8E3D5 /* Build configuration list for PBXNativeTarget "Lab04" */ = {
+		5B52A9AD1D1B69E600D8E3D5 /* Build configuration list for PBXNativeTarget "Examen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B52A9AE1D1B69E600D8E3D5 /* Debug */,
 				5B52A9AF1D1B69E600D8E3D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
