@@ -11,6 +11,8 @@
 @interface Home ()
 @property NSMutableArray *gameNames;
 @property NSMutableArray *gameImgs;
+@property NSMutableArray *gamePrice;
+
 @end
 
 
@@ -34,6 +36,10 @@
     self.gameNames   = [[NSMutableArray alloc] initWithObjects: @"Super Mario RPG",@"TLoZ: A link to the past",@"Killer Instinct",@"Megaman X",@"SMB 2: Yoshi’s Island",@"Donkey Kong Country",@"Super Mario World",@"Super Metroid",@"F-Zero",@"Kirby Super Star",@"Teenage Mutant Ninja Turtles",@"Contra III: The aliens Wars",@"Street Fighter II",@"Donkey Kong Country 2",@"Super Mario Kart",@"Star Fox",@"Super Bomberman 3",nil];
     
     self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"Mario_RPG.jpeg", @"TLoz.jpeg", @"Killer.jpeg",@"Megaman.jpeg",@"Yoshi_Island.jpeg",@"Donkey_1.jpeg",@"Mario_World.jpeg",@"Metroid.jpeg",@"F_Zero.jpeg",@"Kirby.jpeg",@"Tortugas.jpeg",@"Contra.jpeg",@"Street.jpeg",@"Donkey_2.jpeg",@"Mario_Kart.jpeg",@"Fox.jpeg",@"Bomberman_3.jpeg",  nil];
+    
+    self.gamePrice = [[NSMutableArray alloc] initWithObjects: @"1",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"100",@"101",@"102",@"103",@"104",@"105",@"106",@"107" ,  nil];
+    
+    
 }
 
 /**********************************************************************************************/
@@ -68,6 +74,7 @@
     
     cell.lblName.text = self.gameNames[indexPath.row];
     cell.imgGames.image = [UIImage imageNamed: self.gameImgs [indexPath.row]];
+    cell.lblCosto.text = self.gamePrice[indexPath.row];
     
     return cell;
 }

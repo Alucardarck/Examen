@@ -11,5 +11,6 @@
 @interface cellGames : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *imgGames;
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
+@property (strong, nonatomic) IBOutlet UILabel *lblCosto;
 
 @end
