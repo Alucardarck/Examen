@@ -88,4 +88,9 @@
 }
 
 //--------------------------------------------------------------------------------------
+- (IBAction)Back_Intro:(id)sender {
+    [self performSegueWithIdentifier: @"Intro" sender:self];  //Se realiza la saga llamada Window_Municipios
+}
+
+
 @end
