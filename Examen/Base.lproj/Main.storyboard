@@ -121,11 +121,40 @@
                     <connections>
                         <outlet property="lblSelected" destination="FTn-dT-nhs" id="lPK-BS-TFN"/>
                         <outlet property="tblGames" destination="oQ8-Q3-1SG" id="IDe-xH-NgV"/>
+                        <segue destination="1bN-Pe-G6d" kind="modal" identifier="Final" id="5N4-PX-53E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dnI-qQ-cjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1376" y="397"/>
+            <point key="canvasLocation" x="1401" y="397"/>
+        </scene>
+        <!--Final-->
+        <scene sceneID="HdJ-1a-2T3">
+            <objects>
+                <viewController storyboardIdentifier="Final" id="1bN-Pe-G6d" customClass="Final" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4nb-ux-gTe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dJk-N4-pCc">
+                                <rect key="frame" x="112" y="199" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Back_Home:" destination="1bN-Pe-G6d" eventType="touchUpInside" id="DqT-3t-LN5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cSn-43-GvF"/>
+                    <connections>
+                        <segue destination="dRs-e0-MiT" kind="modal" identifier="Home" id="wjl-4n-3vU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAf-Pt-5F5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1847" y="397"/>
         </scene>
     </scenes>
     <resources>

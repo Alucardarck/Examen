@@ -82,6 +82,7 @@
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.lblSelected.text = self.gameNames[indexPath.row];
+    [self performSegueWithIdentifier: @"Final" sender:self];  //Se realiza la saga llamada Window_Municipios
     
     
 }
