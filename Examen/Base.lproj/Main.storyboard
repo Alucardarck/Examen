@@ -137,9 +137,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F5.jpg" id="vxM-A8-gL5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F3.jpg" id="vxM-A8-gL5">
                                 <rect key="frame" x="-5" y="0.0" width="325" height="575"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="G1.png" id="gJd-Lk-sXU">
+                                <rect key="frame" x="40" y="20" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -228,7 +232,9 @@
     </scenes>
     <resources>
         <image name="F2.jpg" width="372" height="696"/>
+        <image name="F3.jpg" width="564" height="1001"/>
         <image name="F5.jpg" width="1080" height="1920"/>
+        <image name="G1.png" width="600" height="288"/>
         <image name="P1.jpg" width="650" height="571"/>
     </resources>
 </document>
