@@ -13,6 +13,10 @@ NSString *stDummy;
 NSMutableArray *maIntroTitles;  // Titulos que se despliegan en mi paginado.
 NSMutableArray *maIntroImgs;    // Imagenes que se despliegan en mi paginado.
 
+NSString *stTitleSelected;
+NSString *stPhotoSelected;
+NSString *stCostSelected;
+
 
 @implementation Declarations
 

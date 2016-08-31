@@ -35,6 +35,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.FinalTitle.text = stTitleSelected;
+    self.FinalPic.image = [UIImage imageNamed:stPhotoSelected];
+    self.FinalCost.text = stCostSelected;
 }
 
 - (void)didReceiveMemoryWarning {

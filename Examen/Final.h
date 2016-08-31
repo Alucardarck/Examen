@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "PayPalMobile.h"
+#import "Declarations.h"
 
 @interface Final : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *FinalPic;
+@property (strong, nonatomic) IBOutlet UILabel *FinalCost;
+
+@property (strong, nonatomic) IBOutlet UILabel *FinalTitle;
 
 @end

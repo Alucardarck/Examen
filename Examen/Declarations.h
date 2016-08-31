@@ -10,7 +10,12 @@
 
 extern NSString *stDummy;
 extern NSMutableArray *maIntroTitles;
-extern NSMutableArray *maIntroImgs; 
+extern NSMutableArray *maIntroImgs;
+
+extern NSString *stTitleSelected;
+extern NSString *stPhotoSelected;
+extern NSString *stCostSelected;
+
 
 @interface Declarations : NSObject
 

@@ -94,7 +94,7 @@
                                 <rect key="frame" x="0.0" y="-33" width="320" height="601"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" semanticContentAttribute="playback" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oQ8-Q3-1SG" userLabel="tblGames" colorLabel="IBBuiltInLabel-Blue">
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" semanticContentAttribute="playback" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oQ8-Q3-1SG" userLabel="tblGames" colorLabel="IBBuiltInLabel-Blue">
                                 <rect key="frame" x="0.0" y="75" width="320" height="493"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -137,27 +137,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F5.jpg" id="JZp-hz-jiE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dJk-N4-pCc">
-                                <rect key="frame" x="112" y="199" width="46" height="30"/>
+                                <rect key="frame" x="0.0" y="20" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleColor" red="0.49953407049179077" green="0.94796508550643921" blue="0.098156236112117767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="Back_Home:" destination="1bN-Pe-G6d" eventType="touchUpInside" id="DqT-3t-LN5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Eck-Ec-nud">
-                                <rect key="frame" x="112" y="299" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Eck-Ec-nud">
+                                <rect key="frame" x="76" y="436" width="168" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Confirmar y Pagar">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.99920135736465454" green="0.99632865190505981" blue="0.99609178304672241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pay" destination="1bN-Pe-G6d" eventType="touchUpInside" id="c1M-Pe-P0B"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="P1.jpg" id="84q-QT-MtQ">
+                                <rect key="frame" x="40" y="108" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iit-QG-IOS">
+                                <rect key="frame" x="40" y="372" width="96" height="36"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" red="0.99920135736465454" green="0.99632865190505981" blue="0.99609178304672241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="599.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kmt-k6-jSu">
+                                <rect key="frame" x="144" y="375" width="109" height="29"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" red="0.99920135736465454" green="0.99632865190505981" blue="0.99609178304672241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Legend Of Zelda: Ocarina Of time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hlq-wG-rrS">
+                                <rect key="frame" x="20" y="65" width="286" height="35"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.99920135736465454" green="0.99632865190505981" blue="0.99609178304672241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cSn-43-GvF"/>
                     <connections>
+                        <outlet property="FinalCost" destination="Kmt-k6-jSu" id="62R-PI-Yli"/>
+                        <outlet property="FinalPic" destination="84q-QT-MtQ" id="vVX-9S-FnP"/>
+                        <outlet property="FinalTitle" destination="Hlq-wG-rrS" id="xU1-qA-oSm"/>
                         <segue destination="dRs-e0-MiT" kind="modal" identifier="Home" id="wjl-4n-3vU"/>
                     </connections>
                 </viewController>
@@ -169,5 +209,6 @@
     <resources>
         <image name="F2.jpg" width="372" height="696"/>
         <image name="F5.jpg" width="1080" height="1920"/>
+        <image name="P1.jpg" width="650" height="571"/>
     </resources>
 </document>

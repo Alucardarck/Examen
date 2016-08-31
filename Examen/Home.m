@@ -37,7 +37,7 @@
     
     self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"P1.jpg",@"P2.jpg",@"P3.jpg",@"P4.jpg",@"P5.jpg",@"P6.png",@"P7.png",@"P8.png",@"P9.png",@"P10.jpg",  nil];
     
-    self.gamePrice = [[NSMutableArray alloc] initWithObjects: @"1",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"100",nil];
+    self.gamePrice = [[NSMutableArray alloc] initWithObjects: @"999.00",@"600.00",@"699.00",@"750.00",@"499.00",@"650.00",@"680.00",@"799.00",@"400.00",@"450.00",nil];
     
     
 }
@@ -81,6 +81,11 @@
 //--------------------------------------------------------------------------------------
 - (void)tableView: (UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    stTitleSelected        = self.gameNames[indexPath.row];
+    stPhotoSelected        = self.gameImgs[indexPath.row];
+    stCostSelected         = self.gamePrice[indexPath.row];
+    
+    
     self.lblSelected.text = self.gameNames[indexPath.row];
     [self performSegueWithIdentifier: @"Final" sender:self];  //Se realiza la saga llamada Window_Municipios
     
