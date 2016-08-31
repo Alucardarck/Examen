@@ -33,11 +33,11 @@
 }
 
 - (void)initController {
-    self.gameNames   = [[NSMutableArray alloc] initWithObjects: @"Super Mario RPG",@"TLoZ: A link to the past",@"Killer Instinct",@"Megaman X",@"SMB 2: Yoshi’s Island",@"Donkey Kong Country",@"Super Mario World",@"Super Metroid",@"F-Zero",@"Kirby Super Star",@"Teenage Mutant Ninja Turtles",@"Contra III: The aliens Wars",@"Street Fighter II",@"Donkey Kong Country 2",@"Super Mario Kart",@"Star Fox",@"Super Bomberman 3",nil];
+    self.gameNames   = [[NSMutableArray alloc] initWithObjects: @"The Legend Of Zelda Ocarina Of Time",@"Sonic: All Stars Racing",@"The Legend Of Zelda: Majoras Mask",@"The Legend Of Zelda: A Link Between Worlds",@"The Legend Of Zelda: Triforce Heroes",@"Pokemon : Rubi Omega",@"Pokemon : Zafiro Alpha",@"Super Smash Bros 3DS",@"Mario Kart 7",@"Yoshi New island 2",nil];
     
-    self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"Mario_RPG.jpeg", @"TLoz.jpeg", @"Killer.jpeg",@"Megaman.jpeg",@"Yoshi_Island.jpeg",@"Donkey_1.jpeg",@"Mario_World.jpeg",@"Metroid.jpeg",@"F_Zero.jpeg",@"Kirby.jpeg",@"Tortugas.jpeg",@"Contra.jpeg",@"Street.jpeg",@"Donkey_2.jpeg",@"Mario_Kart.jpeg",@"Fox.jpeg",@"Bomberman_3.jpeg",  nil];
+    self.gameImgs    = [[NSMutableArray alloc] initWithObjects: @"P1.jpg",@"P2.jpg",@"P3.jpg",@"P4.jpg",@"P5.jpg",@"P6.png",@"P7.png",@"P8.png",@"P9.png",@"P10.jpg",  nil];
     
-    self.gamePrice = [[NSMutableArray alloc] initWithObjects: @"1",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"100",@"101",@"102",@"103",@"104",@"105",@"106",@"107" ,  nil];
+    self.gamePrice = [[NSMutableArray alloc] initWithObjects: @"1",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"100",nil];
     
     
 }
@@ -57,7 +57,7 @@
 //--------------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-    return 80;
+    return 200;
 }
 //--------------------------------------------------------------------------------------
 - (UITableViewCell *) tableView: (UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
