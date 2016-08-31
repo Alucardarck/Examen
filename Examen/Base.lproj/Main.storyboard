@@ -129,6 +129,26 @@
             </objects>
             <point key="canvasLocation" x="1401" y="397"/>
         </scene>
+        <!--Maps View-->
+        <scene sceneID="jad-aN-UkU">
+            <objects>
+                <viewController storyboardIdentifier="Maps_View" id="E4G-n0-T2g" customClass="Maps_View" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jXt-aI-aYz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F5.jpg" id="vxM-A8-gL5">
+                                <rect key="frame" x="-5" y="0.0" width="325" height="575"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9WR-cs-QzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="-266"/>
+        </scene>
         <!--Final-->
         <scene sceneID="HdJ-1a-2T3">
             <objects>

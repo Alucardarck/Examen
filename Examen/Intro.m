@@ -47,10 +47,20 @@
 
 - (IBAction)btnIntroPressed:(id)sender {
     
+    if (self.iPageIndex == 1)
+    {
+        Home *vc = [[UIStoryboard storyboardWithName: @"Main" bundle:nil]
+                    instantiateViewControllerWithIdentifier: @"Maps_View"];
+        [self presentViewController: vc animated: YES completion:nil];
+        
+    }
+    
+    if (self.iPageIndex == 2)
+    {
     Home *vc = [[UIStoryboard storyboardWithName: @"Main" bundle:nil]
                 instantiateViewControllerWithIdentifier: @"Home"];
     [self presentViewController: vc animated: YES completion:nil];
-    
+    }
     
     
 }
