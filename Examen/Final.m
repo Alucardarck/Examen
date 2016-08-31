@@ -55,9 +55,9 @@
     PayPalPayment *payment = [[PayPalPayment alloc] init];
     
     // Amount, currency, and description
-    payment.amount = [[NSDecimalNumber alloc] initWithString:@"39.95"];
+    payment.amount = [[NSDecimalNumber alloc] initWithString:stCostSelected];
     payment.currencyCode = @"USD";
-    payment.shortDescription = @"Awesome saws";
+    payment.shortDescription = stTitleSelected;
     
     // Use the intent property to indicate that this is a "sale" payment,
     // meaning combined Authorization + Capture.
